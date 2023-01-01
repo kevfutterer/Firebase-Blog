@@ -1,24 +1,4 @@
-# fireblogs
+https://fireblogs-f9c59.web.app/
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Blog Website created with Vue.js with all things about programming. 
+Register today to never miss a post and create your own! Make an inquiry to me to become an admin to be able to change existing post or delete old posts.
