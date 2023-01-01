@@ -23,9 +23,9 @@
                 <h2>
                     Never miss a post. Register for your free account today!
                 </h2>
-                <rounter-link class="router-button" to="#">
+                <router-link class="router-button" :to="{ name: 'Register' }">
                     Register for FireBlogs <Arrow class="arrow arrow-light" />
-                </rounter-link>
+                </router-link>
             </div>
         </div>
     </div>
@@ -47,18 +47,6 @@ export default {
                 welcomeScreen: true,
                 photo: "coding",
             },
-            // sampleBlogPost: [
-            //     {
-            //         title: "This is a Filter Title!",
-            //         blogHTML: "This is a filter glob post title",
-            //         blogCoverPhoto: "beautiful-stories",
-            //     },
-            //     {
-            //         title: "This is a Filter Title!",
-            //         blogHTML: "This is a filter glob post title",
-            //         blogCoverPhoto: "designed-for-everyone",
-            //     },
-            // ],
         };
     },
     computed: {

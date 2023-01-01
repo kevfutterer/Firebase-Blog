@@ -9,7 +9,7 @@
                 <router-link
                     class="link link-light"
                     v-if="post.welcomeScreen"
-                    to="#"
+                    :to="{ name: 'Login' }"
                 >
                     Login/Register <Arrow class="arrow arrow-light" />
                 </router-link>
